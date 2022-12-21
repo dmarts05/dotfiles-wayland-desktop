@@ -10,8 +10,11 @@ for _prs in "${_ps[@]}"; do
 	fi
 done
 
+# Fix screensharing
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+
 # Polkit agent
-/usr/lib/xfce-polkit/xfce-polkit &
+/usr/lib/polkit-kde-authentication-agent-1 &
 
 # Set wallpaper
 swaybg --output '*' --mode fill --image ~/.config/hypr/wallpapers/wallpaper.png &
