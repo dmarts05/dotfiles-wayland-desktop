@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+## Set GTK Themes, Icons, Cursor and Fonts
+
+THEME='Catppuccin-Mocha-Standard-Pink-Dark'
+ICONS='Papirus-Dark'
+FONT='Cantarrel 11'
+CURSOR='Catppuccin-Mocha-Dark-Cursors'
+
+SCHEMA='gsettings set org.gnome.desktop.interface'
+
+apply_themes () {
+	${SCHEMA} gtk-theme "$THEME"
+	${SCHEMA} icon-theme "$ICONS"
+	${SCHEMA} cursor-theme "$CURSOR"
+	${SCHEMA} font-name "$FONT"
+}
+
+apply_themes
