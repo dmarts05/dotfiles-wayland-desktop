@@ -49,7 +49,6 @@ obs-studio
 openrazer-daemon
 openrazer-driver-dkms
 openrazer-meta
-pacupg
 papirus-folders-catppuccin-git
 papirus-icon-theme
 pavucontrol
