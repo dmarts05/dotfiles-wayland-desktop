@@ -14,7 +14,7 @@ done
 dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 
 # Polkit agent
-/usr/lib/polkit-kde-authentication-agent-1 &
+/usr/lib/xfce-polkit/xfce-polkit &
 
 # Set wallpaper
 swaybg --output '*' --mode fill --image ~/.config/hypr/wallpapers/wallpaper.png &

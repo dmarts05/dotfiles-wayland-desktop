@@ -2,7 +2,7 @@ if status is-interactive
   # Commands to run in interactive sessions can go here
 	starship init fish | source &
 	thefuck --alias | source &
-	~/.config/fish/tty.sh &
+	/home/kmp/.config/fish/tty.sh &
 end
 
 set -l teal 94e2d5
