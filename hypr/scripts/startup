@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+## Set cursor theme
+hyprctl setcursor Catppuccin-Mocha-Dark-Cursors 24 &
+
 ## Autostart Programs
 
 # Kill already running process
