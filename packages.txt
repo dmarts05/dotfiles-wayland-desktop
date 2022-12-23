@@ -33,6 +33,7 @@ lib32-pipewire-jack
 lib32-wayland
 libmtp
 libnotify
+libreoffice
 libva-nvidia-driver
 mako
 nano
@@ -45,7 +46,6 @@ nvidia-dkms
 nvidia-settings
 nvidia-utils
 obs-studio
-onlyoffice-bin
 openrazer-daemon
 openrazer-driver-dkms
 openrazer-meta
