@@ -43,7 +43,7 @@ nm-connection-editor
 noto-fonts
 noto-fonts-emoji
 ntfs-3g
-nvidia-dkms
+nvidia-open-dkms
 nvidia-settings
 nvidia-utils
 obs-studio
