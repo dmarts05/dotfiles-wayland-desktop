@@ -36,6 +36,7 @@ libmtp
 libnotify
 libreoffice
 libva-nvidia-driver
+lxappearance
 mako
 nano
 nerd-fonts-complete
