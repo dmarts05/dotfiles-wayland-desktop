@@ -6,7 +6,7 @@ iDIR="$HOME/.config/hypr/mako/icons"
 
 # Get Volume
 get_volume() {
-	volume=`wpctl get-volume @DEFAULT_AUDIO_SINK@ | cut -c 11- | cat`
+	volume=`wpctl get-volume @DEFAULT_AUDIO_SINK@ | cut -c 9- | tr -d . | sed -e 's/^0\([^0]\)/\1/' | cat`
 	echo "$volume"
 }
 
