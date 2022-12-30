@@ -10,6 +10,7 @@ discord
 etcher-bin
 exa
 feh
+file-roller
 fish
 glib2
 gnome-keyring
@@ -52,6 +53,7 @@ obs-studio
 openrazer-daemon
 openrazer-driver-dkms
 openrazer-meta
+p7zip
 papirus-folders-catppuccin-git
 papirus-icon-theme
 pavucontrol
