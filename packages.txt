@@ -85,6 +85,7 @@ telegram-desktop
 termius
 thefuck
 thunar
+thunar-archive-plugin
 ttf-dejavu
 ttf-liberation
 ttf-ms-fonts
