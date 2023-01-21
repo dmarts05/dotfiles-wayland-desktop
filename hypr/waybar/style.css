@@ -9,6 +9,7 @@
     font-size: 14px;
     min-height: 0;
 }
+
 /* =============================== */
 
 
@@ -19,38 +20,41 @@
     color: @text;
     margin-top: 5px;
 }
+
 /* =============================== */
 
 
 /* =============================== */
 /* Workspaces */
 #workspaces {
-	border-radius: 1rem;
+    border-radius: 1rem;
     margin-top: 5px;
     margin-right: -10px;
-	/*background-color: @surface0;*/
-	margin-left: 1rem;
+    /*background-color: @surface0;*/
+    margin-left: 0.5rem;
 }
 
 #workspaces button {
     background-color: @surface0;
     color: @lavender;
     border-radius: 1rem;
-    margin: 0px 5px;
-    padding: 0px 10px;
-    transition: all 0.5s cubic-bezier(0.33, 1.0, 0.68, 1.0); /* easeInOutCubic */
+    margin: 0px 0.5rem;
+    padding: 0px 0.7rem;
+    transition: all 0.25s cubic-bezier(0.33, 1.0, 0.68, 1.0);
+    /* easeInOutCubic */
 }
 
 #workspaces button.active {
     color: @mauve;
     border-radius: 1rem;
-    padding: 0rem 1rem;
+    padding: 0rem 1.2rem;
 }
 
 #workspaces button:hover {
-	color: @mauve;
-	border-radius: 1rem;
+    color: @mauve;
+    border-radius: 1rem;
 }
+
 /* =============================== */
 
 
@@ -77,22 +81,26 @@
 #custom-weather {
     background-color: @surface0;
     color: @text;
-	border-radius: 1rem;
-	padding: 0.5rem 1rem;
-	margin-top: 5px;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin-top: 5px;
 }
+
 /* =============================== */
 
 
 /* =============================== */
 /* System Monitoring Modules */
-#cpu, #memory, #temperature {
+#cpu,
+#memory,
+#temperature {
     color: @blue;
 }
 
 #disk {
     color: @peach;
 }
+
 /* =============================== */
 
 /* =============================== */
@@ -101,6 +109,7 @@
     color: @blue;
     margin-right: 1rem;
 }
+
 /* =============================== */
 
 
@@ -109,42 +118,49 @@
 #battery {
     color: @green;
 }
+
 #battery.charging {
     color: @green;
 }
+
 #battery.warning:not(.charging) {
     color: @maroon;
 }
+
 #battery.critical:not(.charging) {
     color: @red;
 }
+
 /* =============================== */
 
 
 /* =============================== */
 /* Backlight Module */
 #backlight {
-    color: @teal;
+    color: @yellow;
     padding-right: 1.25rem;
 }
+
 /* =============================== */
 
 
 /* =============================== */
 /* Network Module */
 #network {
-	color: @mauve;
+    color: @mauve;
     padding-right: 1.25rem;
 }
+
 /* =============================== */
 
 
 /* =============================== */
 /* PulseAudio Module */
 #pulseaudio {
-	color: @peach;
+    color: @peach;
     padding-right: 1.20rem;
 }
+
 /* =============================== */
 
 /* =============================== */
@@ -181,4 +197,5 @@
     border-radius: 1rem;
     padding-right: 1.25rem;
 }
+
 /* =============================== */

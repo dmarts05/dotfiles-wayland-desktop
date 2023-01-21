@@ -38,6 +38,7 @@ libmtp
 libnotify
 libreoffice
 libva-nvidia-driver
+libva-utils
 lxappearance
 mako
 nano

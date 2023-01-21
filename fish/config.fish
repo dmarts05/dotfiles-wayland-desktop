@@ -129,3 +129,4 @@ alias mirror "sudo reflector --save /etc/pacman.d/mirrorlist --protocol https --
 alias orphans "sudo pacman -Rns (pacman -Qqtd)"
 
 set PATH $PATH /home/kmp/.local/bin
+fish_add_path /home/kmp/.spicetify
