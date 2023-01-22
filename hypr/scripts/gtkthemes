@@ -6,6 +6,7 @@ THEME='Catppuccin-Mocha-Standard-Pink-Dark'
 ICONS='Papirus-Dark'
 FONT='Cantarrel 11'
 CURSOR='Catppuccin-Mocha-Dark-Cursors'
+DARK='prefer-dark'
 
 SCHEMA='gsettings set org.gnome.desktop.interface'
 
@@ -14,6 +15,7 @@ apply_themes () {
 	${SCHEMA} icon-theme "$ICONS"
 	${SCHEMA} cursor-theme "$CURSOR"
 	${SCHEMA} font-name "$FONT"
+	${SCHEMA} color-scheme "$DARK"
 }
 
 apply_themes
