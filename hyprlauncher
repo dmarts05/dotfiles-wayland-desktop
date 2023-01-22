@@ -22,7 +22,7 @@ export MOZ_DISABLE_RDD_SANDBOX=1
 export EGL_PLATFORM=wayland
 
 export PATH=$HOME/.local/bin:$PATH
-export EDITOR="vim"
+export EDITOR="nvim"
 export TERMINAL="kitty"
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CACHE_HOME=$HOME/.cache

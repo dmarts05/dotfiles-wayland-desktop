@@ -42,6 +42,7 @@ libva-utils
 lxappearance
 mako
 nano
+neovim
 nerd-fonts-complete
 nm-connection-editor
 noto-fonts
