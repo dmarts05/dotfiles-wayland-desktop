@@ -73,6 +73,7 @@ qt6-wayland
 reflector
 sddm-git
 sddm-theme-catppuccin-git
+seatd-git
 simple-mtpfs
 slurp
 snapper
@@ -105,7 +106,7 @@ webapp-manager
 wireplumber
 wl-clipboard
 wlogout
-wlroots
+wlroots-git
 wofi
 xdg-desktop-portal-hyprland
 xfce4-settings
