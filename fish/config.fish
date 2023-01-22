@@ -127,6 +127,8 @@ alias tree "exa -T"
 alias dotfiles "git --git-dir $HOME/.dotfiles/ --work-tree $HOME"
 alias mirror "sudo reflector --save /etc/pacman.d/mirrorlist --protocol https --country Germany --latest 10 --sort rate"
 alias orphans "sudo pacman -Rns (pacman -Qqtd)"
+alias vim="nvim"
+alias vi="command vim"
 
 set PATH $PATH /home/kmp/.local/bin
 fish_add_path /home/kmp/.spicetify
