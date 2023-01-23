@@ -41,6 +41,7 @@ libva-nvidia-driver
 libva-utils
 lxappearance
 mako
+mpv
 nano
 neovim
 nerd-fonts-complete
@@ -100,7 +101,6 @@ virtualbox-ext-oracle
 virtualbox-guest-iso
 virtualbox-host-modules-arch
 visual-studio-code-bin
-vlc
 waybar-hyprland-git
 wayland
 webapp-manager
