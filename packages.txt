@@ -60,6 +60,7 @@ p7zip
 papirus-folders-catppuccin-git
 papirus-icon-theme
 pavucontrol
+pfetch
 pipewire
 pipewire-alsa
 pipewire-audio
@@ -78,6 +79,7 @@ sddm-theme-catppuccin-git
 seatd-git
 simple-mtpfs
 slurp
+snap-pac
 snapper
 snapper-gui-git
 spotify
