@@ -1,10 +1,10 @@
 bat
-brave-bin
 brother-dcpl2520dw
 btop
 catppuccin-gtk-theme-mocha
 catppuccin-mocha-dark-cursors
 catppuccin-mocha-grub-theme-git
+chromium
 dialog
 discord
 etcher-bin
